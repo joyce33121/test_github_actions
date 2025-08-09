@@ -1,4 +1,4 @@
-# 檔名:.github/workflows/hello.yml
+# 檔名: .github/workflows/hello.yml
 name: Hello World Workflow
 
 on:
@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 顯示問候
-      run: echo "Hello, GitHub Actions!"
+        run: echo "Hello, GitHub Actions!"
