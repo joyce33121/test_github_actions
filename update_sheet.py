@@ -15,7 +15,7 @@ gc = gspread.authorize(creds)
 
 # 你的 Google Sheet ID (網址中的 ID)
 SHEET_ID = "YOUR_SHEET_ID"
-worksheet = gc.open_by_key(1EMsouYetBw8xz4FaRp4UytWPy2JmKuypDi4KyU9McPE).sheet1
+worksheet = gc.open_by_key("1EMsouYetBw8xz4FaRp4UytWPy2JmKuypDi4KyU9McPE").sheet1
 
 # 寫入目前時間到下一行
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
